@@ -12,8 +12,7 @@ const ContentSection = () => {
             <div className="card mb-3 sub-background" style={{maxWidth: '540px'}}>
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src="https://d1fdloi71mui9q.cloudfront.net/lrzRRUwQye9yF5Ua2dhs_2y9Xjq1PDgVs3Re0"
-                             className="img-fluid rounded-start" alt="..."/>
+                        <img src="1.png" className="img-fluid rounded-start" />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
@@ -35,7 +34,7 @@ const ContentSection = () => {
                 <div className="row g-0">
                     <div className="col-md-4">
                         <img
-                            src="https://www.fatquartershop.com/media/catalog/product/d/e/destinations-p10020-hollywood-900.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=526&width=526&canvas=526:526"
+                            src="2.jpg"
                             className="img-fluid rounded-start" alt="..."/>
                     </div>
                     <div className="col-md-8">

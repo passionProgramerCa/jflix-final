@@ -11,6 +11,7 @@ import VideoDetail from "./components/listing-page/video-detail";
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {fab} from '@fortawesome/free-brands-svg-icons'
 import {faCheckSquare, faCoffee} from '@fortawesome/free-solid-svg-icons'
+import PropTypes from "prop-types";
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -30,6 +31,8 @@ class App extends Component {
     }
     
     render() {
+        const { children } = this.props
+    
         return (
             <BrowserRouter>
                 <Switch>
