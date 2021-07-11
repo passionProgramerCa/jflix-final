@@ -1,0 +1,17 @@
+div.video-details {
+    background-image: linear-gradient(to right top, #6ba6d1, #599bd1, #488fd0, #3a84cf, #3277cd, #2474c4, #1570ba, #006cb1, #006c9b, #036981, #30636b, #465c5b);
+
+}
+
+div.card-Components {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+
+}
+img.image{
+    top: 100px;
+    position:absolute;
+    right: 150px;
+    max-width: 100%;
+    height: auto;
+}

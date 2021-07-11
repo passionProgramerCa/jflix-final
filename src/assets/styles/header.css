@@ -1,0 +1,28 @@
+.Navbarc{
+    font-family: 'Roboto', sans-serif;
+
+    length: 1000px;
+    background-color: #3399ff
+;
+}
+.navbar-expand-lg {
+    font-family: 'Roboto', sans-serif;
+
+    length:423432px;
+}
+
+.blog-sticky-navigation {
+    font-family: 'Roboto', sans-serif;
+
+    position: fixed;
+    top: 0;
+    height: 74px;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    width: 100%;
+    display: block;
+    z-index: 91;
+}
+.color{
+    color:white;
+ }

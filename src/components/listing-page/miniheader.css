@@ -1,0 +1,20 @@
+.background{
+    background-color: #2fb6ff;
+    
+}
+.custom{
+    font-family: 'Roboto', sans-serif;
+
+    position: absolute; left: 0;
+    fill: #004d7a;
+    background-color: #2fb6ff;
+   
+
+}
+.custom-two{
+    font-family: 'Roboto', sans-serif;
+
+    position: absolute; left:-400px;
+    
+
+}
