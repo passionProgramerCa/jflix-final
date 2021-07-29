@@ -92,23 +92,3 @@ This section has moved here:
 
 ### notes
 
-// you need to change the style of the jason fille a little bit before you can
-use it
-
-
-Hi James,
-Just wanted to provide quick feedback after reviewing the codebase with my brother.
-Here are some high level initial feedback: You've done a great job to get the site up and running. So good job on that front and continue to learn and improve this site. I like how you've decided to build the site as a full-stack developer. ( Fake DB, Server and Front-end site )
-•	Within package.json there are packages that should belong within dependencies like react-router-dom as it's need by your app. Also, elements like json-server is used within scripts but it was not present within any dependencies. So when i ran this command, it did not work until I had this installed this as a dependency. My guess is you've installed this globally in your system and hence did not notice it.
-•	When i run npm start ( loading site on 3000 ) and the serve the site with express with the JSON server(loading site on 8080), I notice the data is being fetched from two different sources. 1) is from db.json and the other is from fake db. Not sure if the fake db is the same as db..json but the images that loaded from port 8080 site looked very small.
-•	Just a tip: To make the UI stand out immediately much like how netflix and HBO sites look. Make sure the image displayed aspect ratio is maintained even when image is scaled up or down. Currently because no aspect ratio is maintained, images within the tab based grid appear streched.
-•	You have used Functional Components within react which is great.
-•	Noticed this https://jasonserverjflix-app.herokuapp.com/videos. I suggest to keep the DB source consistent. Always local or the one on the server
-•	You have used this code block
-fetch('https://jasonserverjflix-app.herokuapp.com/videos')
-.then(res => res.json())
-.then((data) => {
-this.setState({ movies: data })
-})
-.catch(console.log)
-within many components, perhaps using redux would be a better choice to 
