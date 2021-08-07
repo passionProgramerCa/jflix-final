@@ -12,18 +12,19 @@ class ListingPages extends Component {
     state = {
         movies: []
     }
+    
     componentDidMount() {
         fetch('https://jasonserverjflix-app.herokuapp.com/videos')
             .then(res => res.json())
             .then((data) => {
-                this.setState({ movies: data })
+                this.setState({movies: data})
             })
             .catch(console.log)
     }
     
     render() {
-    
-    
+        
+        
         return (
             <>
                 <Header/>
